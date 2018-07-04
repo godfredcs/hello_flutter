@@ -1,6 +1,7 @@
 import "package:flutter/material.dart";
 import "./ui/welcome_home.dart";
 import "./ui/home.dart";
+import "./ui/header.dart";
 
 void main() {
   runApp(
@@ -8,7 +9,7 @@ void main() {
       /* title: "Welcome Screen",
       home: new Welcome() */
       title: "Home Screen",
-      home: new Home()
+      home: new Header()
     )
   );
 }
